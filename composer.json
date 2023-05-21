@@ -1,0 +1,30 @@
+{
+  "name": "likemusic/laravel-put-sent-emails-in-the-sent-folder",
+  "description": "Put sent emails to the \"Sent\" folder.",
+  "type": "put-sent-emails-in-the-sent-folder",
+  "require": {
+    "webklex/laravel-imap": "^4.1",
+    "illuminate/support": "v5.8.*"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Likemusic\\Laravel\\PutSentEmailsInTheSentFolder\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Valery Ivashchanka",
+      "email": "likemusicdev@gmail.com"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Likemusic\\Laravel\\PutSentEmailsInTheSentFolder\\EventServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
