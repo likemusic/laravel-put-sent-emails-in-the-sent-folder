@@ -2,10 +2,10 @@
   "name": "likemusic/laravel-put-sent-emails-in-the-sent-folder",
   "description": "Put sent emails to the \"Sent\" folder.",
   "type": "put-sent-emails-in-the-sent-folder",
-  "keywords": ["laravel", "laravel 5.8", "5.8", "email", "mail", "imap", "sent", "send", "folder", "sent folder"],
+  "keywords": ["laravel", "email", "mail", "imap", "sent", "send", "folder", "sent folder"],
   "require": {
     "webklex/laravel-imap": "^4.1",
-    "illuminate/support": "v5.8.*"
+    "illuminate/support": "^5.8|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0"
   },
   "license": "MIT",
   "autoload": {
